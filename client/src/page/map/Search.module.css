@@ -1,0 +1,42 @@
+.searchContainer {
+    flex: 1;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    margin-left: 29vw;
+    margin-right: 29vw;
+    margin-top: -30vh;
+    width: 42vw;
+    height: 17vh;
+    opacity: 87%;
+    border-radius: 4px;
+}
+.searchContainerText {
+    color: white;
+    font-size: 2vh;
+    z-index: 2;
+    margin-left: 2vh;
+    margin-top: 0.5vh;
+}
+.searchContainerActiveState {
+    position: absolute;
+    background-color: red;
+    font-size: 2vh;
+    z-index: 3;
+    width: 6vw;
+    height: 4vh;
+    margin-top: -26vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    opacity: 100%;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+.activeStateText {
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+}
